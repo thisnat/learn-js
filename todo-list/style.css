@@ -1,0 +1,41 @@
+.container{
+    margin: 50px auto;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.insert-container{
+    text-align: center;
+}
+
+.insert-container button{
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.insert-container button:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.insert-container button:active{
+    transform: translateY(2px);
+}
+
+.insert-container input{
+    width: 400px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.content-container{
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    text-align: left;
+    padding: 20px 300px;
+}
